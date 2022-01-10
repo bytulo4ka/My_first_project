@@ -5,7 +5,7 @@ import time
 from discord.utils import get
 
 data = time.strftime('%d.%m.%Y')
-times = '16:00:00'
+times = '12:00:00'
 day = time.strftime('%A')
 client = discord.Client()
 bot = commands.Bot(command_prefix='!')
